@@ -1,0 +1,664 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+
+@media (min-width: 1200px) {
+    .banner_text h1 {
+        font-size: 134px;
+        line-height: 112px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 18px;
+    }
+
+    .banner_text h2 {
+        font-size: 60px;
+        margin-top: -37px;
+    }
+
+    #services {
+        padding: 100px 0 60px 0;
+    }
+
+
+    .services_content.float-left {
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_text h1 {
+        font-size: 120px;
+        line-height: 100px;
+    }
+
+    .banner_text h2 {
+        font-size: 52px;
+        margin-top: -55px;
+    }
+
+    .single_team .team_icon {
+        width: 218px;
+    }
+
+
+    footer .gellary a img {
+        width: 100%;
+        padding-right: 2px;
+        margin-bottom: 2px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*    navbar*/
+
+    .navbar .navbar-nav {
+        background: rgb(195, 183, 136);
+        background: radial-gradient(circle, rgba(195, 183, 136, 0.55) 0%, rgba(121, 101, 9, 1) 100%);
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 35px !important;
+        margin-bottom: 20px;
+        border-bottom: 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+        padding-left: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-right: 20px;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky nav*/
+
+    .menu_bar.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(243, 131, 129, 0.40), rgba(252, 227, 138, 0.40));
+        z-index: 999;
+        text-align: left;
+        border-bottom: 0;
+    }
+
+
+
+
+    .banner_text h1 {
+        font-size: 100px;
+        line-height: 85px;
+    }
+
+    .banner_text h2 {
+        font-size: 43px;
+        margin-top: -110px;
+    }
+
+    .images_action h4 {
+        font-size: 14px;
+    }
+
+    #slider_area .single_slider .slider_text p {
+        font-size: 18px;
+    }
+
+    .single_team .team_icon a {
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+    }
+
+    .single_team .team_icon {
+        width: 174px;
+    }
+
+    footer .footer_top button {
+        width: 115px;
+    }
+
+    footer .footer_top .flw_text h2:before {
+        width: 270px;
+    }
+
+    footer .media .media-body h2 {
+        font-size: 10px;
+        padding-right: 0px;
+    }
+
+    footer .media .media-body p {
+        font-size: 10px;
+    }
+
+    footer .footer_top .mo_title h2 {
+        margin-bottom: -15px !important;
+    }
+
+    footer .footer_top .flw_text h2 {
+        padding-bottom: 3px;
+        margin-bottom: 12px;
+    }
+
+    footer .footer_top .flw_icon_text .icons a {
+        margin-bottom: 14px;
+    }
+
+    footer .footer_top .fot_pera p {
+        padding-bottom: 0px;
+        line-height: 17px;
+        font-size: 14px;
+    }
+
+    footer .footer_title h2 {
+        margin-top: 30px;
+    }
+
+    footer .footer_top:before {
+        margin-top: 50px;
+    }
+
+    footer .footer_down h2 {
+        padding-top: 35px;
+    }
+
+    .preloader {
+        padding-top: 200px;
+    }
+
+    .preloader h2 {
+        font-size: 10px;
+    }
+
+    footer .gellary a img {
+        width: 100%;
+        padding-right: 2px;
+        margin-bottom: 2px;
+    }
+
+    footer .media {
+        margin-top: -30px;
+    }
+
+    .footer_title.bt {
+        padding-bottom: 23px;
+    }
+
+
+
+
+    .back_to_top {
+        bottom: 30px;
+        right: 25px;
+        font-size: 32px;
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*    navbar*/
+
+    .navbar-brand img {
+        max-width: 100%;
+        width: 88%;
+        margin-left: 10px;
+    }
+
+
+
+
+    .navbar .navbar-nav {
+        background: rgb(195, 183, 136);
+        background: radial-gradient(circle, rgba(195, 183, 136, 0.55) 0%, rgba(121, 101, 9, 1) 100%);
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 35px !important;
+        margin-bottom: 20px;
+        border-bottom: 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+        padding-left: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-right: 20px;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+
+
+    /*sticky nav*/
+
+    .menu_bar.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(243, 131, 129, 0.40), rgba(252, 227, 138, 0.40));
+        z-index: 999;
+        text-align: left;
+        border-bottom: 0;
+    }
+
+
+
+
+
+    /*    banner part*/
+    .banner_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner_text h2 {
+        font-size: 25px;
+        margin-top: -45px;
+    }
+
+    .banner_text h1:before {
+        width: 60px;
+    }
+
+    .banner_text .banner_btn {
+        margin-top: 30px;
+    }
+
+    /*story part*/
+    .single_img {
+        margin-bottom: 10px;
+    }
+
+    .story_img {
+        margin: 50px 0;
+    }
+
+    .images_action h4 {
+        font-size: 14px;
+    }
+
+    /*    counter part*/
+
+    #counter .single_counter .mycount {
+        font-size: 55px;
+    }
+
+    #counter .counter_title span {
+        font-size: 9px;
+    }
+
+    #services {
+        padding: 40px 0;
+    }
+
+    /*slider part*/
+    #slider_area {
+        padding: 40px 0;
+    }
+
+    #slider_area .single_slider .icon i {
+        font-size: 20px;
+        padding: 22px;
+    }
+
+    #slider_area .single_slider .slider_text p {
+        font-size: 8px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #slider_area .single_slider .slider_text h2 {
+        font-size: 10px;
+        padding-left: 60px;
+    }
+
+    #slider_area .single_slider .slider_text p::before {
+        top: 82%;
+        left: 6%;
+        width: 35px;
+    }
+
+    /*    team part*/
+
+    .single_team .team_icon a {
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+    }
+
+    .single_team .team_icon {
+        width: 174px;
+    }
+
+
+    #our_team {
+        padding-top: 40px;
+    }
+
+    #our_team .team_text p {
+        padding: 0px 0px 10px 0px;
+    }
+
+    #our_work {
+        padding: 30px 0;
+    }
+
+    .team_img {
+        margin-top: 0px;
+    }
+
+    .img_up,
+    .img_down {
+        margin-bottom: 10px;
+    }
+
+    .row.no-gutters.mt-100 {
+        margin-top: 40px;
+    }
+
+
+    footer {
+        background: #f8f8f8;
+        padding: 50px 0 20px 0;
+    }
+
+    footer .footer_down h2 {
+        font-size: 10px;
+    }
+
+    footer .gellary a img {
+        width: 100%;
+        margin-right: 90px;
+        margin-bottom: 2px;
+    }
+
+    footer .footer_down h3 {
+        font-size: 10px;
+    }
+
+    .preloader {
+        padding-top: 200px;
+    }
+
+    .preloader h2 {
+        font-size: 10px;
+    }
+
+
+    /*    back to top buton*/
+    .back_to_top {
+        bottom: 30px;
+        right: 25px;
+        font-size: 30px;
+        width: 35px;
+        height: 35px;
+        line-height: 32px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+
+
+@media (max-width: 575.98px) {
+
+
+    /*    navbar*/
+
+    .navbar-brand img {
+        max-width: 100%;
+        width: 88%;
+        margin-left: 10px;
+    }
+
+    .navbar .navbar-nav {
+        background: rgb(195, 183, 136);
+        background: radial-gradient(circle, rgba(195, 183, 136, 0.55) 0%, rgba(121, 101, 9, 1) 100%);
+        display: inline-block;
+        border-bottom-right-radius: 35px;
+        border-top-right-radius: 35px;
+        margin-top: 35px !important;
+        margin-bottom: 20px;
+        border-bottom: 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+        padding-left: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+
+        margin-right: 20px;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    /*sticky nav*/
+
+    .menu_bar.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(243, 131, 129, 0.40), rgba(252, 227, 138, 0.40));
+        z-index: 999;
+        text-align: left;
+        border-bottom: 0;
+    }
+
+    /*    banner part*/
+    .banner_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner_text h2 {
+        font-size: 25px;
+        margin-top: -45px;
+    }
+
+    .banner_text h1:before {
+        width: 60px;
+    }
+
+    .banner_text .banner_btn {
+        margin-top: 30px;
+    }
+
+    /*story part*/
+    .single_img {
+        margin-bottom: 10px;
+    }
+
+    .story_img {
+        margin: 50px 0;
+    }
+
+    .images_action h4 {
+        font-size: 14px;
+    }
+
+    /*    counter part*/
+
+    #counter .single_counter .mycount {
+        font-size: 55px;
+    }
+
+    #counter .counter_title span {
+        font-size: 9px;
+    }
+
+    #services {
+        padding: 40px 0;
+    }
+
+    /*slider part*/
+    #slider_area {
+        padding: 40px 0;
+    }
+
+    #slider_area .single_slider .icon i {
+        font-size: 20px;
+        padding: 22px;
+    }
+
+    #slider_area .single_slider .slider_text p {
+        font-size: 8px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #slider_area .single_slider .slider_text h2 {
+        font-size: 10px;
+        padding-left: 60px;
+    }
+
+    #slider_area .single_slider .slider_text p::before {
+        top: 82%;
+        left: 6%;
+        width: 35px;
+    }
+
+    /*    team part*/
+
+    .single_team .team_icon a {
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+    }
+
+    .single_team .team_icon {
+        width: 174px;
+    }
+
+
+    #our_team {
+        padding-top: 40px;
+    }
+
+    #our_team .team_text p {
+        padding: 0px 0px 10px 0px;
+    }
+
+    #our_work {
+        padding: 30px 0;
+    }
+
+    .team_img {
+        margin-top: 0px;
+    }
+
+    .img_up,
+    .img_down {
+        margin-bottom: 10px;
+    }
+
+    .row.no-gutters.mt-100 {
+        margin-top: 40px;
+    }
+
+
+    footer {
+        background: #f8f8f8;
+        padding: 50px 0 20px 0;
+    }
+
+    footer .footer_down h2 {
+        font-size: 10px;
+    }
+
+    footer .gellary a img {
+        width: 100%;
+        margin-right: 17px;
+        margin-bottom: 2px;
+    }
+
+    footer .footer_down h3 {
+        font-size: 10px;
+    }
+
+    .preloader {
+        padding-top: 200px;
+    }
+
+    .preloader h2 {
+        font-size: 10px;
+    }
+
+
+    /*    back to top button*/
+
+    .back_to_top {
+        bottom: 30px;
+        right: 25px;
+        font-size: 30px;
+        width: 35px;
+        height: 35px;
+        line-height: 32px;
+    }
+
+
+
+}
